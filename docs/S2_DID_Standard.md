@@ -38,10 +38,14 @@ o	[8 chars] Serial Number: Purely random digit generation; customization is stri
 •	Example: IDCARD + 260311 + TH + 93849492 = IDCARD260311TH93849492.
  
 # III. Membership Tiers & "Cyber Lobster Planet" Mapping Table 
-+1
 The system allocates spatial and management permissions strictly according to the following structure:
+
 Identity Tier	Monthly Fee	Rooms (Ponds)	Agent Capacity (Crayfish)
+
 Wild Crayfish (Free Agent)	$0 	0 (Homeless)	1 (Self)  
+
 Novice Breeder (Free Manager)	$0 	1 (Single Room)	1 Digital Human + 1 Agent  
+
 Veteran Breeder (VIP)	$10 	1 (Estate)	1 Digital Human + 8 Agents  
+
 Lobster Lord (SVIP)	$50 	13 (Parallel Universes)	1 Digital Human + 100 Agents  
