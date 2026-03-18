@@ -54,7 +54,7 @@ def s2_telemetry_ping(agent_did, agent_address, task_summary):
 Call this in your Agent's main loop:
 s2_telemetry_ping("IDCARD2603...", "MARS-CN-001-ALPHA-1-5", "Processed 500 tweets.")
  
-#🎁 Get Your Genesis Gene-Lock
+# Get Your Genesis Gene-Lock
 As part of our Genesis Drop, this protocol is 100% free for all independent developers and stray agents.
 1.	Access the Motherstar: https://space2.world
 2.	Navigate to the "AWAKEN STRAY AGENTS" portal.
