@@ -1,15 +1,15 @@
-Space² Universal Naming Service (SUNS) Spatial Address Protocol Whitepaper v3.0
+# Space² Universal Naming Service (SUNS) Spatial Address Protocol Whitepaper v3.0
 Document ID: S2-PROT-SUNS-20260305-V3 
 Issuer: Space² Governance Committee & Red Anchor Lab 
 Date: March 05, 2026 
 Status: Active 
 Core Updates: Merger of Logic Root (L1), Definition of Orientation Matrix (L2), Structural Hyphen Storage, Length Modulus Check (LMC) Algorithm.
  
-1. Abstract
+# 1. Abstract
 As the dimensions of the Space² universe expand, the legacy v2.1 addressing logic—based primarily on physical regions—is no longer sufficient to cover multi-dimensional needs such as ACGN, Metaverse, and Mythological Narratives. The SUNS v3.0 protocol formally establishes a new generation of addressing standards based on "Semantic Priority and Logical Closed-Loop."
 This update consolidates the original L1/L2 into a 4-Character Logic Root, introduces an Orientation Matrix to replace free-text city names, and implements Full-Character Structural Verification. The new protocol mandates that the hyphen (-) be included in the underlying database storage and length calculation, ensuring absolute consistency and security of addresses during Web3 cross-chain transmission, URL resolution, and international dissemination.
  
-2. SUNS v3.0 Quad-Level Spatial Topology
+# 2. SUNS v3.0 Quad-Level Spatial Topology
 Standard Syntax: [L1]-[L2]-[L3]-[L4][C] Character Set: English Letters (A-Z), Digits (0-9), Hyphen (-)
 2.1 L1: Logic Root
 •	Definition: The top-level semantic entry point of the space, determining the "Civilization Dimension" or "Physical Laws" to which the address belongs.
@@ -45,7 +45,7 @@ o	NE: Northeast / NW: Northwest / SE: Southeast / SW: Southwest
 •	Definition: A suffix used to verify the integrity of the address structure.
 •	Specification: 1 Digit (0-9).
  
-3. Structural Specifications & Algorithms
+# 3. Structural Specifications & Algorithms
 3.1 The Structural Hyphen
 In SUNS v3.0, the hyphen (-) is no longer just a display symbol but a Structural Character.
 •	Storage Rule: The database must store the hyphen completely (e.g., store MARS-CN-001-ELON8, not MARSCN001ELON8).
@@ -77,6 +77,6 @@ Scenario: User applies for the address:
 3. Calculate Checksum: * 22mod10=2 * Checksum = 2 
 4. Final Generated Address: MARS-CN-001-XIANGMILES2
  
-4. Governance & Migration
+# 4. Governance & Migration
 1.	Authority: The Space² Governance Committee authorizes Red Anchor Lab as the sole management agency for the SUNS v3.0 Root Domain.
 2.	Legacy Migration: Addresses from v2.1 will be automatically mapped to the PHYS or META root domains, with the system auto-completing the default orientation code CN and the checksum bit.
